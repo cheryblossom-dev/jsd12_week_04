@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+p {
+  color: red;
+  font-weight: bold;
+}
+h1 {
+  font-family: "Parisienne", cursive;
+  text-decoration: none;
+}
