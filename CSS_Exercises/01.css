@@ -1,0 +1,20 @@
+* {
+  /*เครื่องหมายดอกจันแปลว่า "สั่งทุกชิ้นส่วนบนหน้าเว็บ"*/
+  margin: 0px; /*ลบระยะห่างด้านนอก (Margin) ที่เบราว์เซอร์แถมมาให้ทิ้งไปให้หมด*/
+  padding: 0px; /*เลบระยะห่างด้านใน (Padding) ทิ้งไปด้วย*/
+  box-sizing: border-box; /*(บรรทัดนี้สำคัญมาก!) เป็นการสั่งว่าเวลาเราใส่ขอบ (Border) หรือ Padding ห้ามเอาไปบวกเพิ่มจนกล่องบวมทะลุจอ ให้บีบพื้นที่เข้าด้านในแทน*/
+}
+body {
+  /*สั่งพื้นที่หลังฉากทั้งหมด (หน้ากระดาษ)"*/
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.pic img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
