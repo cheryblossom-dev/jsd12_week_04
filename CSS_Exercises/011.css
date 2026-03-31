@@ -120,14 +120,51 @@
   border: 1px solid black;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .pic2 {
-  flex: 1;
-  max-width: 600px;
+  max-width: 700px;
 }
 .textcard {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 56px;
+  gap: 72px;
 }
 .pic2 img {
   width: 100%;
+  box-shadow: 20px 20px rgb(16, 137, 224);
+  border-radius: 20px;
+}
+.textcard > h1 {
+  font-size: 64px;
+}
+.textcard > p {
+  font-size: 24px;
+}
+.textcard button {
+  font-size: 16px;
+  background-color: rgb(80, 176, 221);
+  border-radius: 8px;
+  box-shadow: 8px 8px black;
+  border: 2px solid black;
+  width: fit-content;
+  padding: 16px;
+  font-weight: bold;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+  }
+  .textcard h1 {
+    font-size: 16px;
+  }
+  .textcard > p {
+    font-size: 8px;
+  }
 }
