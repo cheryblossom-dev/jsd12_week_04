@@ -123,7 +123,7 @@
   justify-content: center;
 }
 .pic2 {
-  max-width: 700px;
+  max-width: 500px;
 }
 .textcard {
   display: flex;
@@ -167,4 +167,46 @@
   .textcard > p {
     font-size: 8px;
   }
+}
+.data {
+  border: 1px solid black;
+  min-height: 100vh;
+  padding: 3rem;
+}
+.head {
+  margin-bottom: 2rem;
+}
+.head h1 {
+  margin-top: 2rem;
+}
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.breadth h2 + p {
+  padding-top: 1rem;
+}
+.depth h2 + p {
+  padding-top: 1rem;
+}
+.durability h2 + span {
+  display: block;
+  padding-top: 1rem;
+}
+.state13 > span {
+  font-size: 4rem;
+}
+.state40 > span {
+  font-size: 4rem;
+}
+.state82 {
+  font-size: 4rem;
+}
+.state15 > span {
+  font-size: 3rem;
+}
+.state76 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid black;
 }
