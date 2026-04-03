@@ -168,45 +168,111 @@
     font-size: 8px;
   }
 }
+.total {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .data {
   border: 1px solid black;
-  min-height: 100vh;
-  padding: 3rem;
+  max-width: 1500px;
+  max-height: 1500px;
+  padding-bottom: 6rem;
 }
 .head {
   margin-bottom: 2rem;
 }
 .head h1 {
   margin-top: 2rem;
+  font-size: 3rem;
 }
 .team {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .breadth h2 + p {
-  padding-top: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.breadth > h2 {
+  font-size: 3rem;
 }
 .depth h2 + p {
-  padding-top: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
+.depth > h2 {
+  font-size: 3rem;
+}
+
 .durability h2 + span {
   display: block;
   padding-top: 1rem;
 }
+.durability > h2 {
+  font-size: 3rem;
+}
 .state13 > span {
-  font-size: 4rem;
+  font-size: 6rem;
+  background-color: RGB(10, 119, 186);
+  border-radius: 8px;
+  color: white;
+}
+.state13 + p {
+  margin-bottom: 1rem;
 }
 .state40 > span {
-  font-size: 4rem;
+  font-size: 6rem;
+  background-color: RGB(10, 119, 186);
+  border-radius: 8px;
+  color: white;
 }
-.state82 {
-  font-size: 4rem;
+.state40 + p {
+  margin-bottom: 1rem;
+}
+.state82 > span {
+  font-size: 5.7rem;
+  background-color: RGB(42, 121, 67);
+  border-radius: 8px;
+}
+.state82 + p {
+  padding-bottom: 2rem;
 }
 .state15 > span {
-  font-size: 3rem;
+  font-size: 4rem;
+  background-color: RGB(42, 121, 67);
+  border-radius: 8px;
 }
 .state76 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border: 1px solid black;
+}
+.st76 > span {
+  background-color: RGB(242, 202, 83);
+  border-radius: 8px;
+  font-size: 3.6rem;
+}
+.st58 > span {
+  background-color: RGB(242, 202, 83);
+  border-radius: 8px;
+  font-size: 3.6rem;
+}
+.st36 > span {
+  background-color: RGB(242, 202, 83);
+  border-radius: 8px;
+  font-size: 3.6rem;
+}
+.breadth button {
+  background-color: white;
+  box-shadow: 2px 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
 }
